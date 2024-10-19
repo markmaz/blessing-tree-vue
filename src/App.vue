@@ -21,7 +21,7 @@ export default {
 
 <style>
 @import url('assets/styles/app.css');
-@import url('assets/angular-motion/dist/angular-motion.css');
+@import url('assets/angular-motion/dist/angular-motion.min.css');
 @import url('assets/animate.css/animate.min.css');
 @import url('assets/bootstrap/dist/css/bootstrap-grid.css');
 @import url('assets/bootstrap/dist/css/bootstrap.css');
