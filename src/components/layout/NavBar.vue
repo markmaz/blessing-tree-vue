@@ -4,12 +4,12 @@
     <div class="left navside dark dk" data-layout="column">
       <div class="navbar no-radius">
         <!-- brand -->
-        <a class="navbar-brand">
+        <a class="navbar-brand"><!--
           <div ui-include="'../assets/images/logo.svg'"></div>
-          <img src="../assets/images/logo.png" alt="." class="hide">
+          <img src="../assets/images/logo.png" alt="." class="hide">-->
           <span class="hidden-folded inline">Blessing Tree</span>
         </a>
-        <!-- / brand -->
+
       </div>
       <div class="hide-scroll" data-flex>
         <nav class="scroll nav-light">
@@ -37,6 +37,17 @@
                       </i>
                     </span>
                 <span class="nav-text">Families</span>
+              </router-link>
+            </li>
+
+            <li>
+              <router-link to="adults" class="navbar-vue">
+                <span class="nav-icon">
+                      <i class="material-icons">
+                        <AdultIcon/>
+                      </i>
+                    </span>
+                <span class="nav-text">Seniors</span>
               </router-link>
             </li>
 
@@ -115,6 +126,8 @@ import GiftIcon from "../common/GiftIcon.vue";
 import SponsorIcon from "../common/SponsorIcon.vue";
 import UserIcon from "../common/UserIcon.vue";
 import ReportIcon from "../common/ReportIcon.vue";
+import AdultIcon from "../common/AdultIcon.vue";
+
 export default {
   components:{
     FamilyIcon,
@@ -122,6 +135,7 @@ export default {
     SponsorIcon,
     UserIcon,
     ReportIcon,
+    AdultIcon,
   },
   name: "NavBar"
 }

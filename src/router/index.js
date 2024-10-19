@@ -3,6 +3,7 @@ import Login from '../views/Login.vue';
 import Dashboard from '../views/Dashboard.vue';
 import Family from "../views/Family.vue";
 import Users from "../views/Users.vue";
+import Adults from "../views/Adults.vue";
 
 const routes = [
     {
@@ -26,6 +27,12 @@ const routes = [
         path: '/users',
         name: 'Users',
         component: Users,
+        meta: {requiresAuth: true},
+    },
+    {
+        path: '/adults',
+        name: 'Adults',
+        component: Adults,
         meta: {requiresAuth: true},
     },
     {
