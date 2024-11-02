@@ -20,13 +20,10 @@ export default {
 </script>
 
 <style>
+
 @import url('assets/styles/app.css');
 @import url('assets/angular-motion/dist/angular-motion.min.css');
 @import url('assets/animate.css/animate.min.css');
-@import url('assets/bootstrap/dist/css/bootstrap-grid.css');
-@import url('assets/bootstrap/dist/css/bootstrap.css');
-@import url('assets/bootstrap/dist/css/bootstrap-reboot.css');
-@import url('assets/bootstrap-additions/dist/bootstrap-additions.css');
 @import url('assets/fonts/roboto/font.css');
 @import url('assets/material-design-icons/material-design-icons.css');
 @import url('assets/glyphicons/glyphicons.css');

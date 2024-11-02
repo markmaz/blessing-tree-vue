@@ -1,7 +1,7 @@
 <template>
   <div class="box p-a-md">
     <h1>Users List</h1>
-    <table class="table table-hover">
+    <table class="table table-hover table-condensed">
       <thead>
       <tr>
         <th>ID</th>
